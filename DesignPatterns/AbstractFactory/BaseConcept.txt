@@ -1,0 +1,1 @@
+﻿Provide an interface for createing families of related or dependent objects without specifying their concrete classes.
