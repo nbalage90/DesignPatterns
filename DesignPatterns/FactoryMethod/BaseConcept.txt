@@ -1,0 +1,1 @@
+﻿Define an interface for createing an object, but let subclasses decide which class to instantiate. The Factory Method pattern lets a class defer instantiation to subclasses.
