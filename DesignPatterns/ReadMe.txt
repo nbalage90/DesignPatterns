@@ -1,0 +1,1 @@
+The name of the source book: Design Patterns in C# (Appress)

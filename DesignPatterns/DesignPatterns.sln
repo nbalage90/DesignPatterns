@@ -9,17 +9,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{DB037477-1880-492E-A5D6-8DC1B0B5713B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{E78C6A74-B863-4E92-889D-BE99161F33C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{E78C6A74-B863-4E92-889D-BE99161F33C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{BD41134B-52A6-4FBE-AD99-64FFB3B0DC4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{BD41134B-52A6-4FBE-AD99-64FFB3B0DC4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{F3F85B72-226D-4A2F-8891-861496DB4B90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{F3F85B72-226D-4A2F-8891-861496DB4B90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{9BC0651F-6CD6-4637-977D-11B6E6548BE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{9BC0651F-6CD6-4637-977D-11B6E6548BE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{6BD98163-6332-4F01-BC48-B1C25F4BF9EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{6BD98163-6332-4F01-BC48-B1C25F4BF9EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{74E90A6E-8C22-470B-B191-703E4C6FC170}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{74E90A6E-8C22-470B-B191-703E4C6FC170}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{96AFB3EF-EC50-4A2E-B314-F4A2C650974C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{665EB031-60F4-409C-BCB2-BA22502C0BA7}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +70,10 @@ Global
 		{74E90A6E-8C22-470B-B191-703E4C6FC170}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E90A6E-8C22-470B-B191-703E4C6FC170}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E90A6E-8C22-470B-B191-703E4C6FC170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AFB3EF-EC50-4A2E-B314-F4A2C650974C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AFB3EF-EC50-4A2E-B314-F4A2C650974C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AFB3EF-EC50-4A2E-B314-F4A2C650974C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AFB3EF-EC50-4A2E-B314-F4A2C650974C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
