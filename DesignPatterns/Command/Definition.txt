@@ -1,0 +1,8 @@
+﻿Encapsulate a request as an object, thereby letting you parameterize clients with different requests queue or log requests, and support undoable operations.
+
+------
+In general, four terms are important:
+- command: caninvoke a method of the receiver in a way that is specific to that receiver's class
+- receiver: then starts processing the job
+- invoket: a command object is separately passed to it, to invoke the command
+- client: hold the invoker object and the command objects
