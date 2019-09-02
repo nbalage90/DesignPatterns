@@ -32,9 +32,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Comp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{632D2D2A-C32B-4FFC-AEC6-4B67533E3B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{24DD023F-381A-44A2-9641-857F701BD21B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{24DD023F-381A-44A2-9641-857F701BD21B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{D319DF42-B0F3-4ED5-8E1A-55F8FD9A70D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{D319DF42-B0F3-4ED5-8E1A-55F8FD9A70D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{A444F0BB-04C3-4787-9187-5D24F4351B39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +100,10 @@ Global
 		{D319DF42-B0F3-4ED5-8E1A-55F8FD9A70D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D319DF42-B0F3-4ED5-8E1A-55F8FD9A70D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D319DF42-B0F3-4ED5-8E1A-55F8FD9A70D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A444F0BB-04C3-4787-9187-5D24F4351B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A444F0BB-04C3-4787-9187-5D24F4351B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A444F0BB-04C3-4787-9187-5D24F4351B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A444F0BB-04C3-4787-9187-5D24F4351B39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
