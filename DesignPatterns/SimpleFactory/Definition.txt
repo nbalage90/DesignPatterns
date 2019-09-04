@@ -1,0 +1,1 @@
+﻿Create an object without exposing the instantiation logi to the client.
